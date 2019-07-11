@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1>
+      Edit 
+      <code>
+        src/App.js
+      </code>
+       and save to reload.
+    </h1>
+    <a
+      className="App-link"
+      href="https://reactjs.org"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Learn React
+    </a>
+  </header>
+  <ul
+    className="naser"
+  >
+    <li>
+      1
+    </li>
+    <li>
+      2
+    </li>
+    <li>
+      3333
+    </li>
+  </ul>
+  <Test />
+  <p
+    className="button-state"
+  >
+    No!
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    click here!
+  </button>
+  <h2 />
+  <input
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;

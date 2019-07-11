@@ -38,6 +38,15 @@ describe('App', () => {
     input.simulate('change', { currentTarget: { value: 'masri' } });
     expect(wrapper.find('h2').text()).toBe('masri');
   });
+  //new state
+  it('update className',()=>{
+    const wrapper = shallow(<App/>)
+    expect(wrapper.find('.blue').length).toBe(1)
+    expect(wrapper.find('.red').length).toBe(0)
+    wrapper.setState({mainColor: 'red'})
+    expect(wrapper.find('.blue').length).toBe(0)
+    expect(wrapper.find('.red').length).toBe(1)
+  })
 });
 
 describe('render the new component', () => {

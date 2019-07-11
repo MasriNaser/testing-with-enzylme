@@ -5,12 +5,14 @@ const Test = () => <div>Testing </div>;
 class App extends Component {
   state={
     on:false,
-    input: ''
+    input: '',
+    mainColor: 'blue'
   }
   render() {
     return (
       <div className='App'>
         <header className='App-header'>
+          <h3 className={this.state.mainColor}>everyone is welcome!</h3>
           <h1>
             Edit <code>src/App.js</code> and save to reload.
           </h1>
